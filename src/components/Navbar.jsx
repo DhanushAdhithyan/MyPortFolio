@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { close, sajinLogo, menu } from "../assets";
+import { close, DhanushLogo, menu } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="w-full  flex justify-between items-center navbar">
       {/* Logo */}
       <a href="#home">
-        <img src={sajinLogo} alt="Sajin" className="w-[100px] h-[100px]" />
+        <img src={DhanushLogo} alt="Sajin" className="w-[100px] h-[100px]" />
       </a>
 
       {/* List of links */}
@@ -29,7 +29,6 @@ const Navbar = () => {
         ))}
       </ul>
 
-      {/* only for mobile devices, created separately */}
       <div className="sm:hidden flex flex-1 justify-end items-center">
         {/* shows toggle icon based on its state */}
         <img

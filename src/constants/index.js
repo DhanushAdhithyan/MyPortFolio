@@ -20,6 +20,7 @@ import {
   averlon,
   devfolio,
   pba,
+  tngr,
   ethglobal,
   polkadot,
   lightspeed,
@@ -77,6 +78,7 @@ import {
   SiMicrosoftazure,
   SiPlaywright,
   SiRazorpay,
+  SiDebian,
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -91,7 +93,7 @@ export const resumeLink =
   "https://drive.google.com/file/d/1XPmfFIMGDHRsGMLRRxlR6X9QlpY2aSOt/view?usp=sharing";
 export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
 
-export const callToAction = "https://www.linkedin.com/in/sajinns";
+export const callToAction = "https://www.linkedin.com/in/dhanushadhithyan04";
 
 export const navLinks = [
   {
@@ -116,7 +118,7 @@ export const educationList = [
   {
     id: "education-1",
     icon: nitk,
-    title: "CMS College Coimbatore",
+    title: "Hindusthan College of Arts & Science, Coimbatore",
     degree: "Bachelor of Computer Applications",
     duration: "December 2018 - May 2021",
     content1: "Major: Computer Applications",
@@ -125,12 +127,22 @@ export const educationList = [
   {
     id: "education-2",
     icon: pba,
-    title: "HSC | MGM HSS, Coimbatore",
-    degree: "",
-    duration: "May 2015 - June 2017",
-    content1: "Accounts with computer science",
+    title: "Brainery Spot Technologies, Coimbatore",
+    degree: "Full Stack Development - JAVA",
+    duration: "Mar 2023 - May 2023",
+    content1:
+      "Hands on experience in HTML,CSS,BootStrap,JavaScript,Java and MySql",
     // content1:
     //   "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+  },
+  {
+    id: "education-2",
+    icon: tngr,
+    title: "HSC - Tyagi NGR Mem.Hr.Sec.School, Coimbatore",
+    degree: "Computer Science",
+    duration: "May 2018 - April 2020",
+    // content1: "",
+    content1: "Graduated with First class academic score",
   },
 ];
 
@@ -265,11 +277,11 @@ export const skills = [
         icon: SiNextdotjs,
         name: "NextJS",
       },
-      {
-        id: "f-3",
-        icon: SiPlaywright,
-        name: "Playwright",
-      },
+      // {
+      //   id: "f-3",
+      //   icon: SiPlaywright,
+      //   name: "Playwright",
+      // },
       {
         id: "f-4",
         icon: SiBootstrap,
@@ -342,7 +354,7 @@ export const experiences = [
     positions: [
       {
         title: "Frontend Developer",
-        duration: "Aug 2023 - Present",
+        duration: "Dec 2023 - Present",
         content: [
           {
             text: "Frontend Developer of experience in creating and maintaining SaaS product. Experienced in debugging, developing efficient solutions, and ensuring quality through a strong foundation in testing.",
@@ -354,28 +366,29 @@ export const experiences = [
           },
         ],
       },
+    ],
+  },
+  {
+    organisation: "Brainery Spot Technologies",
+    logo: averlon,
+    link: "https://braineryspot.com/",
+    positions: [
       {
-        title: "Automation Tester",
+        title: "Full Stack Development Trainee",
+        duration: "Sept 2023 - Nov 2023",
         content: [
           {
-            text: "Skilled in automation testing to enhance the development process and ensure reliability throughout the software lifecycle.",
+            text: "Completed training in full stack development, gaining hands-on experience in building dynamic web applications using HTML, CSS, Bootstrap, JavaScript, Java, and MySQL. Worked on developing responsive web interfaces and implementing backend logic to support user functionalities. Strengthened understanding of database management, server-side programming, and debugging techniques.",
             link: "",
           },
         ],
       },
-    ],
-  },
-  {
-    organisation: "Vee Technologies",
-    logo: averlon,
-    link: "https://www.veetechnologies.com/",
-    positions: [
       {
-        title: "Medical Coder - CRC",
-        duration: "Sept 2022 - June 2023",
+        title: "Full Stack Development Intern",
+        duration: "Jun 2023 - Aug 2023",
         content: [
           {
-            text: "Certified Risk Adjustment Coder (CRC) with expertise in ICD-10-CM coding, HCC models, and CMS compliance. Skilled in accurate chart reviews, risk adjustment coding, and ensuring documentation accuracy to optimize reimbursements. Proficient in EHR systems, coding audits, and maintaining regulatory standards. Dedicated to delivering high-quality coding with minimal errors.",
+            text: "Collaborated on projects as a Full Stack Development Intern, creating and maintaining web applications using technologies like HTML, CSS, Bootstrap, JavaScript, Java, and MySQL. Assisted in designing and implementing user-friendly interfaces, integrating APIs, and developing database-driven functionalities. Gained exposure to the software development lifecycle, team collaboration, and agile methodologies.",
             link: "",
           },
         ],
@@ -1091,34 +1104,37 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/sajinns/",
+    link: "https://www.linkedin.com/in/dhanushadhithyan04",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://github.com/Sajin-NS/",
+    link: "https://github.com/DhanushAdhithyan/",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:sajinsathyan001@gmail.com",
+    link: "mailto:dhanushadhi48@gmail.com",
   },
-  {
-    id: "social-media-4",
-    icon: AiOutlineTwitter,
-    link: "https://x.com/sajin_ns",
-  },
-  {
-    id: "social-media-5",
-    icon: AiFillInstagram,
-    link: "https://www.instagram.com/its__sajin",
-  },
+  // {
+  //   id: "social-media-4",
+  //   icon: AiOutlineTwitter,
+  //   link: "https://x.com/sajin_ns",
+  // },
+  // {
+  //   id: "social-media-5",
+  //   icon: AiFillInstagram,
+  //   link: "https://www.instagram.com/its__sajin",
+  // },
 ];
 
 export const aboutMe = {
-  name: "Sajin NS",
-  tagLine: "Frontend Developer | ex-QA Test Engineer",
-  contact: "sajinsathyan001@gmail.com  |  +91 9789593505",
-  intro:
-    "Frontend Developer with passionate about building user-centric web applications and ensuring high-quality software solutions.",
+  name: "Dhanush Adhithyan",
+  tagLine: "Frontend Developer | Web Developer",
+  contact: "dhanushadhi48@gmail.com |  +91 8220548847",
+  intro: `
+  I am Dhanush Adhithyan, a dedicated Frontend Developer with a strong focus on creating seamless and visually appealing user experiences. 
+  My expertise lies in designing and developing user-centric web applications while maintaining a deep commitment to delivering high-quality, 
+  scalable software solutions. I thrive on solving complex problems and constantly strive to stay updated with the latest advancements in web technologies.
+`,
 };

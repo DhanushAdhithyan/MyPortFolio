@@ -1,6 +1,6 @@
 import styles from "../style";
 import { motion } from "framer-motion";
-import { sajinLogo } from "../assets";
+import { DhanushLogo } from "../assets";
 
 const Loading = ({ isLoading }) => {
   return (
@@ -15,7 +15,7 @@ const Loading = ({ isLoading }) => {
         ease: "easeIn",
       }}
     >
-      <img src={sajinLogo} alt="Sajin" className="w-[100px] h-[100px]" />
+      <img src={DhanushLogo} alt="Sajin" className="w-[100px] h-[100px]" />
     </motion.div>
   );
 };

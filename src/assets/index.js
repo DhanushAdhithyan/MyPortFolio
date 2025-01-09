@@ -15,7 +15,7 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import nitk from "./cms.png";
+import nitk from "./kkk.jpg";
 import cluboard from "./cluboard.png";
 import cash_flow from "./cash_flow.jpg";
 import freadom from "./freadom.jpg";
@@ -39,7 +39,7 @@ import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
 import averlon from "./averlon.jpg";
 import devfolio from "./devfolio.png";
-import pba from "./mgm.jpeg";
+import pba from "./brainerySpot.webp";
 import ethglobal from "./ethglobal.png";
 import polkadot from "./polkadot.jpeg";
 import lightspeed from "./lightspeed.png";
@@ -47,6 +47,8 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import tngr from "./tngr.png";
+import DhanushLogo from "./DhanushLogo.png"
 
 export {
   quotes,
@@ -80,6 +82,7 @@ export {
   zulip,
   cdc,
   sajinLogo,
+  DhanushLogo,
   profilePic,
   chargeswap,
   placeicon,
@@ -98,4 +101,5 @@ export {
   manipal,
   icon,
   ethforall,
+  tngr,
 };
