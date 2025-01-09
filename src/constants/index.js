@@ -90,7 +90,7 @@ import { FaGolang } from "react-icons/fa6";
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1XPmfFIMGDHRsGMLRRxlR6X9QlpY2aSOt/view?usp=sharing";
+  "https://drive.google.com/file/d/1q4gHRTkL6jbyeP6d5t9LsBcqclhTY0R5/view?usp=sharing";
 export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
 
 export const callToAction = "https://www.linkedin.com/in/dhanushadhithyan04";
@@ -601,7 +601,7 @@ export const projects = [
   {
     id: "project-1",
     title: "Beauty Mart",
-    github: "https://github.com/Sajin-NS/beautymart",
+    github: "https://github.com/DhanushAdhithyan/BeautyMartWebsite",
     link: "https://beautymart.vercel.app/",
     content:
       "Developed a fully responsive e-commerce platform with React.js and Tailwind, featuring advanced navigation tools for seamless shopping experiences.",
